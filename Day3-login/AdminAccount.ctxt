@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=AdminAccount
+comment1.params=u\ s\ hp\ n\ temp
+comment1.target=AdminAccount(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.util.Hashtable)
+comment2.params=
+comment2.target=java.lang.String\ getAdmin()
+comment3.params=
+comment3.target=java.lang.String\ reviewAdminRequests()
+numComments=4

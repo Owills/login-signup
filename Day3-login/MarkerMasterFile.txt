@@ -1,0 +1,17 @@
+Username
+Name
+Salt
+Password
+Boolean Admin
+
+user1
+Oliver Marker
+hbDfkpWjbEcoJGVJUJmtNw==
+9db05b6ce32a2032bc2e3009a233c7ca74b3ac0b17071f27c382b8bffa67889
+true
+
+user2
+William Marker
+iXwzZni7uGoalL3FVvr7/Q==
+f94816ea35ac59ef2593ed0156caf0f85620a8933cc38d3fb0e977726dc83e08
+false

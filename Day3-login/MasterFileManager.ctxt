@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=MasterFileManager
+comment1.params=filename
+comment1.target=MasterFileManager(java.lang.String)
+comment2.params=
+comment2.target=void\ readFile()
+comment3.params=
+comment3.target=void\ writeFile()
+comment4.params=user
+comment4.target=void\ appendFile(java.lang.String)
+comment5.params=user\ name\ pass\ confirm\ admin
+comment5.target=java.lang.String\ newAccount(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ boolean)
+comment6.params=user\ pass
+comment6.target=java.lang.String\ login(java.lang.String,\ java.lang.String)
+comment7.params=
+comment7.target=java.lang.String\ getSalt()
+numComments=8
