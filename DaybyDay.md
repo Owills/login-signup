@@ -9,3 +9,12 @@ Worked on how to actually store the information in the text file. Each user's in
 Password checks were added, the password must match the confirmed password, be at least 7 characters, contain a capital letter and non letter character.
 the getSalt method now generates a random Salt based on an algorithim I found on stack overflow.
 An Admin checkbox was added for the create account page. 
+
+Day 3:
+Lots of readability, usability and organization changes.
+Added PasswordManager class instead of static methods, bc methods arenot always called. Password checks happen within the mainFileManager which will return a String verision of the error method to login.
+Removed Redundant static hash methods.
+Added a fileappend method, instead of rewritting the file on the creation of an account the account will just be added.
+Added options for Name during account creation
+Added Abstract account class with getters and setter methods. The Hashtable now stores accounts instead of arraylist. The child classes are UserAccount and Admin Account the only difference for nwo is the Admin Account stores the Hashtable (In anticipaiton For Future Use). To account for such changes the writeFile and ReadFile methods were updated.
+A succesful login will now close the original window and bring up a new empty window as either and AdminAccountPage or UserAccountPage.
