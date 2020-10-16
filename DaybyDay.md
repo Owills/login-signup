@@ -21,6 +21,7 @@ A succesful login will now close the original window and bring up a new empty wi
 
 Day 4:
 Worked on actualy difference in windows between admins and users. Both acounts can sign out, which rerurns the original windows, reset passwword which alters the acount and then writes the information to masterFile. The user can play Conway's Game of Life because why not. The user can request to be an admin. Admins can veiw pendings admin requests from users and confirm admins. The user will have to relogin to gain admin privileges. In order for this to happen new informations must be added to the user account storing wether the user has requested to become an admin, admin classes save that information to file as null but admin acounts don't store that information, user classes defualt as false. The admin account has acess to the Hashtable and looks from every account and fine whichs ones are requesting. The admin account also contains a method to convert a account from a user to admin.
+In the creation of the account there is now a check to see if the user has actually inputted something as their name.
 
 Passwords for both user1 and user2 are 'Password1'.
 Information in the master file is stored as follows
