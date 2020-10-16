@@ -111,6 +111,8 @@ public class MasterFileManager{
         //acount creation checks  
         if(strA.get(user) != null)
             return ("The Username '" + user + "' is taken");
+        if(name.length() < 1)
+            return ("Please Enter Your Full Name");
         if(!pm.passwordsMatch(pass,confirm))
             return "Passwords Do Not Match";
         if(!pm.isValidLength(pass))
