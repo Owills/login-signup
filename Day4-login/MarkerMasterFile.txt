@@ -1,0 +1,20 @@
+Username
+Name
+Salt
+Password
+Submit Admin Request
+false
+
+user2
+Oliver Marker
+yMXrHaGOv5XxEGm0mmik3g==
+89747e386e1fdeff515acb8d357da3299a7a1914965fc1f7ab519fdc888fbb30
+null
+true
+
+user1
+William Marker
+qTy21lEL3qk4Fmv03cWeSg==
+25347c3fe45d27c903c69d138a222c4e0919d9daf51b40c8687190c1d477f4dd
+false
+false
